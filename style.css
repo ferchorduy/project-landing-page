@@ -1,5 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
 #first-fourth {
     background-color: #1f2937;
+    height: 50vh;
+    width: 100%;
 }
 
 #second-fourth {
