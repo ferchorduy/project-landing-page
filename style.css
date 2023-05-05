@@ -49,3 +49,33 @@ body {
     align-items: center;
     width: 65%;
 }
+
+.bold {
+    font-weight: 800;
+}
+
+#cta-main-msg {
+    font-weight: 900;
+    font-size: x-large;
+}
+
+#cta-submsg {
+    color: #c7c7c8;
+}
+
+#cta-button {
+    font-weight: 900;
+    font-size: large;
+    padding: 6px 30px;
+    border: 2px white solid;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #fff;
+}
+
+#cta-button:hover {
+    background-color: #fff;
+    color: #3882f6;
+    transition: 0.3s;
+    cursor: pointer;
+}
