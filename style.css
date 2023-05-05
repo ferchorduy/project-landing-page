@@ -22,6 +22,9 @@ body {
     background-color: #e5e7eb;
     height: 450px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #fourth-fourth {
@@ -83,4 +86,26 @@ body {
     color: #3882f6;
     transition: 0.3s;
     cursor: pointer;
+}
+
+#full-quote {
+    width: 58%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+#quote-author {
+    color: #000;
+    font-weight: 900;
+    font-size: 24px;
+    align-self: flex-end;
 }
