@@ -26,7 +26,7 @@ body {
 
 #fourth-fourth {
     background-color: #fff;
-    height: 400px;
+    height: 350px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -37,17 +37,22 @@ body {
     background-color: #1f2937;
     height: 100px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
 }
 
 #call-to-action {
     background-color: #3882f6;
     color: white;
     padding: 40px;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 65%;
+    height: 20%;
 }
 
 .bold {
