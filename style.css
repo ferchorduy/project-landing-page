@@ -154,3 +154,76 @@ body {
     width: 150px;
     color: #a2a2a2;
 }
+
+#head-and-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info {
+    display: flex;
+    align-items: center;
+}
+
+#left-info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#placeholder {
+    background-color: gray;
+    color: #c7c7c8;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+#secondary-text {
+    color: #c7c7c8;
+    font-size: 18px;
+}
+
+#sign-up-button {
+    font-weight: 900;
+    font-size: large;
+    padding: 6px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #fff;
+}
+
+#sign-up-button:hover {
+    background-color: #fff;
+    color: #3882f6;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 600;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #c7c7c8;
+}
