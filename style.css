@@ -16,6 +16,9 @@ body {
     background-color: #fff;
     height: 500px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #third-fourth {
@@ -108,4 +111,46 @@ body {
     font-weight: 900;
     font-size: 24px;
     align-self: flex-end;
+}
+
+#info-pics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#random-info {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.block {
+    width: 160px;
+    height: 160px;
+    border: 4px #3882f6 solid;
+    margin: 20px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    border-radius: 16px;
+}
+
+#pics-comment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.individual-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.comment {
+    text-align: center;
+    width: 150px;
+    color: #a2a2a2;
 }
